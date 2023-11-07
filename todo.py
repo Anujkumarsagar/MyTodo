@@ -6,7 +6,7 @@ from PIL import ImageTk , Image
 
 # Create the tkinter root window
 root = tk.Tk()
-img = Image.open("E:\python programming\projects for codesoft\projects for codesoft\logo.png")
+img = Image.open("ogo.png")
 logo_img = img.resize((16, 16))
 logo = ImageTk.PhotoImage(image=logo_img)
 root.iconphoto(False, logo)
@@ -29,7 +29,7 @@ def deleted_selected_task():
 
 # Create a frame to hold the background image
 
-original_image = Image.open("E:\python programming\projects for codesoft\image_bg.png")
+original_image = Image.open("image_bg.png")
 new_w = 700
 new_h = 400
 resize_image = original_image.resize((new_w,new_h))
